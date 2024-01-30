@@ -1,6 +1,6 @@
-# Calculator App
+# CatchTheIcardi
 
-This is a calculator app developed using Kotlin programming language. This application can perform basic mathematical operations: addition, subtraction, multiplication, and division.
+Oyunun amacı, Icardi'nin fotoğrafını yarım saniye boyunca görüntülemek ve fotoğrafın üzerine tıkladığınızda puan kazanmaktır. Toplamda 15 saniye süreniz vardır. Oyunun sonunda tekrar oynamak isteyip istemediğiniz sorulur.
 
 ## Screenshots
 
