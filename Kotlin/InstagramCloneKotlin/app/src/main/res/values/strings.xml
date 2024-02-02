@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InstagramKotlin</string>
+    <string name="title_activity_feed">FeedActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+</resources>
