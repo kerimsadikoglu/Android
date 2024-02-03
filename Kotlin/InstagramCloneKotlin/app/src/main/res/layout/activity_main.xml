@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".View.MainActivity">
 
     <EditText
         android:id="@+id/passwordText"
@@ -35,17 +35,19 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:onClick="signInClicked"
         android:text="SIGN IN "
         app:layout_constraintStart_toStartOf="@+id/passwordText"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:onClick="signUpClicked"
         android:text="SIGN UP"
         app:layout_constraintEnd_toEndOf="@+id/passwordText"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

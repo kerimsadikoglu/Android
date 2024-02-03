@@ -17,17 +17,17 @@
         android:theme="@style/Theme.InstagramKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".UploadActivity"
+            android:name=".View.UploadActivity"
             android:exported="false"
             android:label="@string/title_activity_upload"
             android:theme="@style/Theme.InstagramKotlin" />
         <activity
-            android:name=".FeedActivity"
+            android:name=".View.FeedActivity"
             android:exported="false"
             android:label="@string/title_activity_feed"
             android:theme="@style/Theme.InstagramKotlin" />
         <activity
-            android:name=".MainActivity"
+            android:name=".View.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
